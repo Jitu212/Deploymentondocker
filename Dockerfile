@@ -11,3 +11,4 @@ RUN cp -rvf spa-html-template/* .
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80
 
+
