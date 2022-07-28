@@ -10,3 +10,4 @@ RUN unzip jack-and-rose.zip
 RUN cp -rvf free-wedding-website-template/* .
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80
+
